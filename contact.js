@@ -30,7 +30,7 @@ contact.name = contact.name.split('').reverse().join('');
 console.log(contact);
 
 // Check if the email includes "@email.com" (case-insensitive) and log a confirmation message.
-if(contact.email.includes("@email")){
+if(contact.email.includes("@email.com")){
     console.log('Email is Valid.');
 }
 else{
